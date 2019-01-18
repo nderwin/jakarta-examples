@@ -23,3 +23,9 @@ java -jar target/ee-microprofile-thorntail.jar
 ```
 http://localhost:8080/resources/ping
 ```
+
+## OpenAPI
+
+```
+http://localhost:8080/openapi
+```

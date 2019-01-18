@@ -10,6 +10,14 @@ import javax.ws.rs.core.Application;
  * @author airhacks.com
  */
 @ApplicationPath("resources")
+// (1)
+//@OpenAPIDefinition(
+//        info = @Info(
+//                title = "EE8/Microprofile",
+//                version = "1"
+//        ),
+//        components = @Components()
+//)
 public class JAXRSConfiguration extends Application {
 
 }
